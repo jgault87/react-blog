@@ -7,6 +7,9 @@ import { RiServiceLine } from 'react-icons/ri';
 import { BiMessageSquareDetail } from 'react-icons/bi';
 import {useState} from 'react'
 
+//use State hook to set change active classes onclick
+//terinary operator for if else state
+
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
