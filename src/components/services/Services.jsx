@@ -90,8 +90,8 @@ const Services = () => {
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </li>
           </ul>
-          {/* {end of content creation} */}
         </article>
+         {/* {end of content creation} */}
       </div>
     </section>
   )
