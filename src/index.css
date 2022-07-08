@@ -8,6 +8,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+   
 }
 
 :root {
@@ -44,7 +45,7 @@ body {
 /* general styles */
 
 .container {
-    width: var(--container-width);
+    width: var(--container-width-lg);
     margin: 0 auto;
 
 }
