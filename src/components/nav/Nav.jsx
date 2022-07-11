@@ -5,28 +5,28 @@ import { FaUserAstronaut } from 'react-icons/fa';
 import { BiBook } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
 import { BiMessageSquareDetail } from 'react-icons/bi';
-import {useState} from 'react'
+
 
 //use State hook to set change active classes onclick
 //terinary operator for if else state
 
-const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+const Nav = ({currentPage, handlePageChange}) => {
+  
   return (
     <nav>
-      <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>
+      <a href='#home' onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'active' : ''}>
         <AiOutlineHome />
       </a>
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>
+      <a href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'active' : ''}>
         <FaUserAstronaut />
       </a>
-      <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>
+      <a href='#experience' onClick={() => handlePageChange('Experience')} className={currentPage === 'Experience' ? 'active' : ''}>
         <BiBook />
       </a>
-      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}>
+      <a href='#portfolio' onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'active' : ''}>
         <RiServiceLine />
       </a>
-      <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
+      <a href='#contact' onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'active' : ''}>
         <BiMessageSquareDetail />
       </a>
     </nav>

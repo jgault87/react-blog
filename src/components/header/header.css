@@ -29,16 +29,16 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 6rem;
 }
 
-/* 
-.header__socials {
+
+/* .header__socials {
     content: '';
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
-} */
+}  */
 
 /* ME */
 

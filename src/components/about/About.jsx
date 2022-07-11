@@ -21,8 +21,8 @@ const About = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>lol</small>
+              <h5>University of Denver</h5>
+              <small>Current Full-Stack web development student</small>
             </article>
 
             <article className='about__card'>
@@ -38,10 +38,14 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
-            soluta, temporibus necessitatibus officia error iusto alias
-            exercitationem, ullam aliquid debitis unde veritatis eius optio!
-            Eius mollitia architecto voluptates quis molestias!
+          Full-Stack software developer with big aspirations.
+            Eagerly transitioning from a successful insurance claim career into an industry I am truly passionate about and am determined to continue building my skill-set as a developer.
+
+            Objective-Driven
+            Consistent problem solver, present a problem and I will find a solution.
+
+            Proactive
+            First in-line volunteer to face new challenges and step out of the comfort zone.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 
