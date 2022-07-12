@@ -49,8 +49,8 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 33rem;
-    height: 41rem;
+    width: 22rem;
+    height: 30rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -66,9 +66,9 @@ header {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
-    /* transform: rotate(90deg); */
+    transform: rotate(90deg);
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 
