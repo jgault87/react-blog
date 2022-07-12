@@ -5,7 +5,7 @@
 }
 
 .about__me {
-    width: 75%;
+    width: 80%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
@@ -55,16 +55,17 @@
 }
 
 .about__card h5 {
-    font-size: 0.95rem;
+    font-size: 1.2rem;
 }
 
 .about__card small {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: var(--color-light);
     
 }
 
 .about__content p {
+    font-size: 1.2rem;
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
