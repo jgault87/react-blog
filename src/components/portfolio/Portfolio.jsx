@@ -1,10 +1,10 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/teacup.jpg';
-import IMG2 from '../../assets/blogger.jpg';
-import IMG3 from '../../assets/weather.jpg';
-import IMG4 from '../../assets/team.jpg';
-import IMG5 from '../../assets/generate.png';
+import IMG1 from '../../assets/teacup.webp';
+import IMG2 from '../../assets/blogger.webp';
+import IMG3 from '../../assets/weather.webp';
+import IMG4 from '../../assets/team.webp';
+import IMG5 from '../../assets/generate.webp';
 
 const data = [
   {

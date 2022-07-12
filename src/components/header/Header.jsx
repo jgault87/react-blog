@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/welcome.jpg'
+import ME from '../../assets/welcome.webp'
 import HeaderSocial from './HeaderSocials'
 
 
