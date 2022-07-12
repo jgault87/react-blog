@@ -19,25 +19,20 @@ export default function PortfolioContainer() {
       return <About />;
     }
     if (currentPage === 'Experience') {
-      return (<> 
-      <Experience /> <Services /> </>
+      return (
+        <>
+          <Experience /> <Services />{' '}
+        </>
       );
     }
     if (currentPage === 'Portfolio') {
-
       return (
         <>
-      
-      <Portfolio/>
-      </>);
-   
-    } else if (currentPage === 'Contact') {
-      return (
-        
-         
-          <Contact /> 
-        
+          <Portfolio />
+        </>
       );
+    } else if (currentPage === 'Contact') {
+      return <Contact />;
     }
   };
 
@@ -53,3 +48,5 @@ export default function PortfolioContainer() {
     </div>
   );
 }
+
+
