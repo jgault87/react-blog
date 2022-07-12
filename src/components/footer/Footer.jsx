@@ -7,7 +7,7 @@ import {FiDribbble} from 'react-icons/fi'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>JJ Gault</a>
+     
 
       <ul className="permalinks">
       
