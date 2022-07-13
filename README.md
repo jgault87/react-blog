@@ -30,7 +30,7 @@
   
 
   ## Installation 
-  visit my deployed page at [GitHub pages](https://https://jgault87.github.io/react-go-to-it)
+  visit my deployed page at [GitHub pages](https://jgault87.github.io/react-go-to-it/)
 
 
   ## Questions 
