@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2d432c93.css",
-    "main.js": "/react-portfolio/static/js/main.f26e5ffc.js",
-    "static/media/welcome.webp": "/react-portfolio/static/media/welcome.71f8374c2147caeda018.webp",
-    "static/media/me.webp": "/react-portfolio/static/media/me.1b9c9bde61fd618997cb.webp",
-    "static/media/blogger.webp": "/react-portfolio/static/media/blogger.17d9a01918f30812ceda.webp",
-    "static/media/teacup.webp": "/react-portfolio/static/media/teacup.bb8da999ba76394ab342.webp",
-    "static/media/team.webp": "/react-portfolio/static/media/team.a7616f50d5764fff0360.webp",
-    "static/media/weather.webp": "/react-portfolio/static/media/weather.3ab345767156d3ea07fd.webp",
-    "static/media/generate.webp": "/react-portfolio/static/media/generate.45458ca9a61cc9e25db5.webp",
-    "static/media/document.docx": "/react-portfolio/static/media/document.51cbff557d07f658bdfd.docx",
-    "index.html": "/react-portfolio/index.html",
-    "main.2d432c93.css.map": "/react-portfolio/static/css/main.2d432c93.css.map",
-    "main.f26e5ffc.js.map": "/react-portfolio/static/js/main.f26e5ffc.js.map"
+    "main.css": "/react-go-to-it/static/css/main.2d432c93.css",
+    "main.js": "/react-go-to-it/static/js/main.76bf4020.js",
+    "static/media/welcome.webp": "/react-go-to-it/static/media/welcome.71f8374c2147caeda018.webp",
+    "static/media/me.webp": "/react-go-to-it/static/media/me.1b9c9bde61fd618997cb.webp",
+    "static/media/blogger.webp": "/react-go-to-it/static/media/blogger.17d9a01918f30812ceda.webp",
+    "static/media/teacup.webp": "/react-go-to-it/static/media/teacup.bb8da999ba76394ab342.webp",
+    "static/media/team.webp": "/react-go-to-it/static/media/team.a7616f50d5764fff0360.webp",
+    "static/media/weather.webp": "/react-go-to-it/static/media/weather.3ab345767156d3ea07fd.webp",
+    "static/media/generate.webp": "/react-go-to-it/static/media/generate.45458ca9a61cc9e25db5.webp",
+    "static/media/document.docx": "/react-go-to-it/static/media/document.51cbff557d07f658bdfd.docx",
+    "index.html": "/react-go-to-it/index.html",
+    "main.2d432c93.css.map": "/react-go-to-it/static/css/main.2d432c93.css.map",
+    "main.76bf4020.js.map": "/react-go-to-it/static/js/main.76bf4020.js.map"
   },
   "entrypoints": [
     "static/css/main.2d432c93.css",
-    "static/js/main.f26e5ffc.js"
+    "static/js/main.76bf4020.js"
   ]
 }
