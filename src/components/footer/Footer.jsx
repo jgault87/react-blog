@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css' 
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
-import {FiDribbble} from 'react-icons/fi'
+import {HiOutlineMoon} from 'react-icons/hi'
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="footer__socials">
         <a href="https://www.linkedin.com/in/jj-gault/" target="_blank" rel="noreferrer"><BsLinkedin/></a>
         <a href="https://github.com/jgault87" target="_blank" rel="noreferrer"><FaGithub/></a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer"><FiDribbble/></a>
+        <a href="#home" ><HiOutlineMoon/></a>
 
       </div>
 

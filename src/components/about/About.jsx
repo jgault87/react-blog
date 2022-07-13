@@ -5,7 +5,7 @@ import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
-const About = () => {
+const About = ({handlePageChange}) => {
   return (
     <section id='about'>
       <h5>Get To Know </h5>
@@ -28,14 +28,17 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <small>lol</small>
+              <small>Placeholder</small>
             </article>
 
-            <article className='about__card'>
+            
+            <article href='#portfolio' onClick={() => handlePageChange('Portfolio')} className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>lol</small>
+              <small>View my recent projects</small>
             </article>
+            
+
           </div>
           <p>
           Full-Stack software developer with big aspirations.
@@ -47,7 +50,7 @@ const About = () => {
             Proactive
             First in-line volunteer to face new challenges and step out of the comfort zone.
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" onClick={() => handlePageChange('Contact')} className='btn btn-primary'>Let's Talk</a>
 
         </div>
       </div>

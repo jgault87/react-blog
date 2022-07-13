@@ -29,6 +29,7 @@
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+    
 }
 
 .about__card {
@@ -37,7 +38,8 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
-    transition: var(--transition)
+    transition: var(--transition);
+    
 }
 
 .about__card:hover {
@@ -56,6 +58,7 @@
 
 .about__card h5 {
     font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .about__card small {
@@ -111,3 +114,4 @@
        margin: 1.5rem 0;
        }
 }
+

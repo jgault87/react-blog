@@ -6,14 +6,14 @@ import HeaderSocial from './HeaderSocials'
 
 
 
-const Header = () => {
+const Header = ({handlePageChange}) => {
   return (
     <header>
       <div className="container header__container">
         <h5>hello I'm</h5>
         <h1>JJ Gault</h1>
         <h5 className="text-light">Fullstack Developer</h5>
-        <CTA />
+        <CTA handlePageChange={handlePageChange}/>
         <HeaderSocial />
         
         <div className="me">
