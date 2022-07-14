@@ -49,7 +49,7 @@ const About = ({ handlePageChange }) => {
               <h4>
               Full-Stack software developer with big aspirations. 
               </h4>
-              I began my coding journey in Febuary of 2022 and I have been obsessed ever since.
+              I began my coding journey in February of 2022 and I have been obsessed ever since.
               I'm eagerly
               transitioning from a six-year successful insurance claim career into an
               industry I am truly passionate about and am ecstatic about continuing to build my skill-set as a developer.
