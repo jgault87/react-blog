@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/jjgaultresume.pdf'
+import CV from '../../assets/jjGault.pdf'
 import {RiFolderDownloadFill} from 'react-icons/ri'
 
 const CTA = ({handlePageChange}) => {
