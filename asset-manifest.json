@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-go-to-it/static/css/main.ba40e04d.css",
-    "main.js": "/react-go-to-it/static/js/main.b7210b5e.js",
+    "main.js": "/react-go-to-it/static/js/main.349e4fb6.js",
     "static/media/welcome.webp": "/react-go-to-it/static/media/welcome.71f8374c2147caeda018.webp",
     "static/media/me.webp": "/react-go-to-it/static/media/me.1b9c9bde61fd618997cb.webp",
     "static/media/mongobackend.webp": "/react-go-to-it/static/media/mongobackend.af31d710868524544852.webp",
@@ -13,10 +13,10 @@
     "static/media/document.docx": "/react-go-to-it/static/media/document.51cbff557d07f658bdfd.docx",
     "index.html": "/react-go-to-it/index.html",
     "main.ba40e04d.css.map": "/react-go-to-it/static/css/main.ba40e04d.css.map",
-    "main.b7210b5e.js.map": "/react-go-to-it/static/js/main.b7210b5e.js.map"
+    "main.349e4fb6.js.map": "/react-go-to-it/static/js/main.349e4fb6.js.map"
   },
   "entrypoints": [
     "static/css/main.ba40e04d.css",
-    "static/js/main.b7210b5e.js"
+    "static/js/main.349e4fb6.js"
   ]
 }
