@@ -3,6 +3,7 @@ import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import {validateEmail} from '../../utils/helpers';
+import SpringAnimation from '../Springin';
 
 import emailjs from 'emailjs-com';
 
@@ -66,7 +67,7 @@ const Contact = () => {
   // end emailjs function need to wrap in .env
 
   return (
-  
+    <SpringAnimation>
     <section id='contact'>
       <h5>Get In Touch</h5>
       <h2>Contact</h2>
@@ -132,6 +133,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
+    </SpringAnimation>
   );
 };
 

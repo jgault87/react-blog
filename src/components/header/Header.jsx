@@ -3,11 +3,12 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/welcome.webp'
 import HeaderSocial from './HeaderSocials'
-
+import SpringAnimation from '../Springin'
 
 
 const Header = ({handlePageChange}) => {
   return (
+    <SpringAnimation>
     <header>
       <div className="container header__container">
         <h5>hello I'm</h5>
@@ -27,6 +28,7 @@ const Header = ({handlePageChange}) => {
         </div>
       
       </header>
+      </SpringAnimation>
   )
 }
 

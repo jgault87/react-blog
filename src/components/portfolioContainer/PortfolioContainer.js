@@ -6,7 +6,7 @@ import Contact from '../contact/Contact';
 import Services from '../services/Services';
 import Portfolio from '../portfolio/Portfolio';
 import Nav from '../nav/Nav';
-import SpringAnimation from '../Springin';
+
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -14,30 +14,30 @@ export default function PortfolioContainer() {
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (currentPage === 'Home') {
-      return ( 
+      return ( <>
       
-        <SpringAnimation>
+        
 
          <Home handlePageChange={handlePageChange} />
 
-         </SpringAnimation>
+      </>
       );
     }
     if (currentPage === 'About') {
       return (
         <>
-        <SpringAnimation>
+        
           <About handlePageChange={handlePageChange} />
-        </SpringAnimation>
+       
         </>
       );
     }
     if (currentPage === 'Experience') {
       return (
         <>
-          <SpringAnimation>
+          
           <Experience /> 
-          </SpringAnimation>
+          
           <Services />
         </>
       );
@@ -45,17 +45,17 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return (
         <> 
-        <SpringAnimation>
+        
           <Portfolio />
-        </SpringAnimation>
+       
         </>
       );
     } else if (currentPage === 'Contact') {
       return (
         <> 
-        <SpringAnimation>
+       
           <Contact />
-        </SpringAnimation>
+       
         </>
       );
     }

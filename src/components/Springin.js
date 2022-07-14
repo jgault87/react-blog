@@ -13,7 +13,7 @@ const Springin = ({ children }) => {
       marginTop: -1000,
       opacity: 0,
     },
-    config: { mass: 1.5, tension: 300, friction: 55 },
+    config: { mass: 1.5, tension: 300, friction: 55},
   });
 
   return <animated.div style={{ ...animatedProps }}>{children}</animated.div>;
