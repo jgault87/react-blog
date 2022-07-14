@@ -2,8 +2,8 @@
 
 ## Description
 
- This is my personal portfolio site with my personal information with links to my resume/ networking and current projects showcase.
-  This website is built and will be maintained with responsive web design in min using react hooks/props 
+ This is my personal portfolio site and first venture into using react. This react application showcases links to my resume, projects, skill-set and focus.
+  This website is built and will be maintained with responsive web design and mobile-first focus.
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
