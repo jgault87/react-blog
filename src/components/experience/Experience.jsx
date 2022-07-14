@@ -1,9 +1,18 @@
 import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import { AnimateKeyframes } from "react-simple-animate";
 
 const Experience = () => {
   return (
+
+    <AnimateKeyframes
+    play
+    duration={0.7}
+    keyframes={['opacity: 0', 'opacity: 1']}
+    iterationCount='1'
+  >
+
     <section id='experience'>
     <h5>What Skills I have</h5>
     <h2>My Experience</h2>
@@ -99,6 +108,8 @@ const Experience = () => {
     </div>
     
     </section>
+
+    </AnimateKeyframes>
   )
 }
 

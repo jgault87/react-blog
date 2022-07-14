@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
+import { AnimateKeyframes } from "react-simple-animate";
 
 import emailjs from 'emailjs-com';
 
@@ -33,6 +34,14 @@ const Contact = () => {
   };
 
   return (
+    <AnimateKeyframes
+    play
+    duration={0.7}
+    keyframes={['opacity: 0', 'opacity: 1']}
+    iterationCount='1'
+  >
+
+  
     <section id='contact'>
       <h5>Get In Touch</h5>
       <h2>Contact</h2>
@@ -81,6 +90,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
+    </AnimateKeyframes>
   );
 };
 

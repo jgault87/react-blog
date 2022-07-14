@@ -4,9 +4,16 @@ import ME from '../../assets/me.webp';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
+import { AnimateKeyframes } from "react-simple-animate";
 
 const About = ({handlePageChange}) => {
   return (
+    <AnimateKeyframes
+    play
+    duration={0.7}
+    keyframes={['opacity: 0', 'opacity: 1']}
+    iterationCount='1'
+  >
     <section id='about'>
       <h5>Get To Know </h5>
       <h2>About Me</h2>
@@ -55,6 +62,7 @@ const About = ({handlePageChange}) => {
         </div>
       </div>
     </section>
+    </AnimateKeyframes>
   );
 };
 
