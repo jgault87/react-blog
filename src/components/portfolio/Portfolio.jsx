@@ -57,7 +57,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <SpringAnimation>
+    
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
@@ -65,6 +65,9 @@ const Portfolio = () => {
         {
         projects.map(({ id, image, title, github, demo }) => {
           return (
+            
+            <SpringAnimation>
+
             <article key={id} className='portfolio__item'>
               <div className='portfolio__item-image'>
                 <img src={image} alt={title} />
@@ -84,11 +87,14 @@ const Portfolio = () => {
                 </a>
               </div>
             </article>
+
+            </SpringAnimation>
+            
           );
         })}
       </div>
     </section>
-   </SpringAnimation>
+   
   );
 };
 

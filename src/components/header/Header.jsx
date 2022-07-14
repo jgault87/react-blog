@@ -8,15 +8,17 @@ import SpringAnimation from '../Springin'
 
 const Header = ({handlePageChange}) => {
   return (
-    <SpringAnimation>
+    
     <header>
       <div className="container header__container">
+      <SpringAnimation>
         <h5>hello I'm</h5>
         <h1>JJ Gault</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA handlePageChange={handlePageChange}/>
         <HeaderSocial />
-        
+        </SpringAnimation>
+
         <div className="me">
           <img src={ME} alt="me" />
           
@@ -28,7 +30,7 @@ const Header = ({handlePageChange}) => {
         </div>
       
       </header>
-      </SpringAnimation>
+      
   )
 }
 

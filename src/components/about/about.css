@@ -14,6 +14,11 @@
 
 }
 
+.about__me-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
