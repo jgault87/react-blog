@@ -46,14 +46,18 @@ const About = ({ handlePageChange }) => {
               </article>
             </div>
             <p>
-              Full-Stack software developer with big aspirations. Eagerly
-              transitioning from a successful insurance claim career into an
-              industry I am truly passionate about and am determined to continue
-              building my skill-set as a developer. Objective-Driven Consistent
-              problem solver, present a problem and I will find a solution.
-              Proactive First in-line volunteer to face new challenges and step
+              <h4>
+              Full-Stack software developer with big aspirations. 
+              </h4>
+              I began my coding journey in Febuary of 2022 and I have been obsessed ever since.
+              I'm eagerly
+              transitioning from a six-year successful insurance claim career into an
+              industry I am truly passionate about and am ecstatic about continuing to build my skill-set as a developer.
+              <h4> Objective-Driven: </h4>
+              Consistent problem solver, present a problem and I will find a solution.
+              <h4> Proactive: </h4> First in-line volunteer to face new challenges and step
               out of the comfort zone.
-            </p>
+              </p>
             <a
               href='#contact'
               onClick={() => handlePageChange('Contact')}
@@ -64,7 +68,7 @@ const About = ({ handlePageChange }) => {
           </div>
 
         </SpringAnimation>
-        
+
       </div>
     </section>
   );

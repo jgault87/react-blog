@@ -76,6 +76,11 @@
     font-size: 1.2rem;
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: center;
+}
+.about__content h4 {
+color: var(--color-white);
+margin-top: 1rem;
 }
 
 /* tablet */

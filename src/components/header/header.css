@@ -11,6 +11,13 @@ header {
     transition: var(--transition);
 }
 
+.header__container-bottom {
+    text-align: center;
+    position: relative;
+
+    
+}
+
 /* CTA */
 
 .cta {

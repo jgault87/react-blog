@@ -45,10 +45,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_w8ts37z',
-        'template_7ya7eoe',
+        'service_w8ts37z', //service worker
+        'template_7ya7eoe', //template for email
         form.current,
-        '00VMVm7_RsV8h5lA0'
+        '00VMVm7_RsV8h5lA0' //api key
       )
       .then(
         (result) => {

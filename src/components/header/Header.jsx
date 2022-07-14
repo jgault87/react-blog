@@ -8,7 +8,7 @@ import SpringAnimation from '../Springin'
 
 const Header = ({handlePageChange}) => {
   return (
-    
+    <>
     <header>
       <div className="container header__container">
       <SpringAnimation>
@@ -25,12 +25,18 @@ const Header = ({handlePageChange}) => {
         </div>
 
         {/* <a href="#contact" className="scroll__down">  use the navbar</a> */}
-       
-      
+        
+
+        
         </div>
-      
+
+        <div className="container header__container-bottom">
+        <h4>Welcome to my landing page</h4> 
+        <h4>Use the navbar to take a look around</h4></div>
       </header>
       
+      
+      </>
   )
 }
 
