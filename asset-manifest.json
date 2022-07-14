@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-go-to-it/static/css/main.4f6557fb.css",
-    "main.js": "/react-go-to-it/static/js/main.196fed90.js",
+    "main.css": "/react-go-to-it/static/css/main.ba40e04d.css",
+    "main.js": "/react-go-to-it/static/js/main.5ed541cf.js",
     "static/media/welcome.webp": "/react-go-to-it/static/media/welcome.71f8374c2147caeda018.webp",
     "static/media/me.webp": "/react-go-to-it/static/media/me.1b9c9bde61fd618997cb.webp",
     "static/media/mongobackend.webp": "/react-go-to-it/static/media/mongobackend.af31d710868524544852.webp",
@@ -12,11 +12,11 @@
     "static/media/generate.webp": "/react-go-to-it/static/media/generate.45458ca9a61cc9e25db5.webp",
     "static/media/document.docx": "/react-go-to-it/static/media/document.51cbff557d07f658bdfd.docx",
     "index.html": "/react-go-to-it/index.html",
-    "main.4f6557fb.css.map": "/react-go-to-it/static/css/main.4f6557fb.css.map",
-    "main.196fed90.js.map": "/react-go-to-it/static/js/main.196fed90.js.map"
+    "main.ba40e04d.css.map": "/react-go-to-it/static/css/main.ba40e04d.css.map",
+    "main.5ed541cf.js.map": "/react-go-to-it/static/js/main.5ed541cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f6557fb.css",
-    "static/js/main.196fed90.js"
+    "static/css/main.ba40e04d.css",
+    "static/js/main.5ed541cf.js"
   ]
 }
