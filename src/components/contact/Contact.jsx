@@ -1,8 +1,9 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import { AnimateKeyframes } from "react-simple-animate";
+import {validateEmail} from '../../utils/helpers'
 
 import emailjs from 'emailjs-com';
 
@@ -12,6 +13,33 @@ import emailjs from 'emailjs-com';
 const Contact = () => {
   const form = useRef();
 
+ 
+
+  const[errorMessage, setErrorMessage] = useState("");
+
+  
+  
+
+  const handleChange = (e) => {
+    if (e.target.name === 'email') {
+      const isValid = validateEmail(e.target.value);
+      if (!isValid) {
+        setErrorMessage('Your email is invalid.');
+      } else {
+        setErrorMessage('');
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage('');
+      }
+    }
+    
+  };
+
+
+  // emailjs function
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -25,13 +53,18 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setErrorMessage('Email Sent!');
+          setTimeout(() => {setErrorMessage('')}, 3000);
         },
         (error) => {
           console.log(error.text);
+          setErrorMessage('An error occurred, email was not sent');
+         
         }
       );
     e.target.reset();
   };
+  // end emailjs function need to wrap in .env
 
   return (
     <AnimateKeyframes
@@ -78,12 +111,29 @@ const Contact = () => {
             type='text'
             name='name'
             placeholder='Your Full Name'
+            onBlur={handleChange}
             required
           />
-          <input type='email' name='email' placeholder='Your Email' required />
-          <textarea name='message' rows='7' placeholder='Your Message' required>
-            {''}
-          </textarea>
+          <input
+           type='email' 
+           name='email' 
+           placeholder='Your Email'          
+           onBlur={handleChange}
+           required />
+          <textarea 
+           name='message' 
+           rows='7'        
+           onBlur={handleChange}
+           placeholder='Your Message'
+           required />
+            
+          
+          {errorMessage && (
+          <div>
+            <p >{errorMessage}</p>
+          </div>
+        )}
+          
           <button type='submit' className='btn btn-primary'>
             Send Message
           </button>
