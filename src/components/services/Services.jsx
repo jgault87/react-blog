@@ -1,16 +1,11 @@
 import React from 'react'
 import './services.css'
 import {BiCheck} from 'react-icons/bi'
-import { AnimateKeyframes } from "react-simple-animate";
+
 
 const Services = () => {
   return (
-    <AnimateKeyframes
-    play
-    duration={0.7}
-    keyframes={['opacity: 0', 'opacity: 1']}
-    iterationCount='1'
-  >
+    
     <section id='services'>
       <h5>what I offer</h5>
       <h2>Services</h2>
@@ -78,7 +73,7 @@ const Services = () => {
          {/* {end of content creation} */}
       </div>
     </section>
-    </AnimateKeyframes>
+   
   )
 }
 

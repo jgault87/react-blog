@@ -5,7 +5,7 @@ import IMG2 from '../../assets/blogger.webp';
 import IMG3 from '../../assets/weather.webp';
 import IMG4 from '../../assets/team.webp';
 import IMG5 from '../../assets/generate.webp';
-import { AnimateKeyframes } from "react-simple-animate";
+
 
 const projects = [
   {
@@ -57,12 +57,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <AnimateKeyframes
-    play
-    duration={0.7}
-    keyframes={['opacity: 0', 'opacity: 1']}
-    iterationCount='1'
-  >
+   
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
@@ -93,7 +88,7 @@ const Portfolio = () => {
         })}
       </div>
     </section>
-    </AnimateKeyframes>
+    
   );
 };
 

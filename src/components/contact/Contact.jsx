@@ -2,8 +2,7 @@ import React, { useRef, useState } from 'react';
 import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
-import { AnimateKeyframes } from "react-simple-animate";
-import {validateEmail} from '../../utils/helpers'
+import {validateEmail} from '../../utils/helpers';
 
 import emailjs from 'emailjs-com';
 
@@ -67,13 +66,6 @@ const Contact = () => {
   // end emailjs function need to wrap in .env
 
   return (
-    <AnimateKeyframes
-    play
-    duration={0.7}
-    keyframes={['opacity: 0', 'opacity: 1']}
-    iterationCount='1'
-  >
-
   
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -140,7 +132,6 @@ const Contact = () => {
         </form>
       </div>
     </section>
-    </AnimateKeyframes>
   );
 };
 
