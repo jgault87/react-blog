@@ -5,6 +5,7 @@ import IMG2 from '../../assets/blogger.webp';
 import IMG3 from '../../assets/weather.webp';
 import IMG4 from '../../assets/team.webp';
 import IMG5 from '../../assets/generate.webp';
+import IMG6 from '../../assets/mongobackend.webp';
 import SpringAnimation from '../Springin';
 
 const projects = [
@@ -53,6 +54,16 @@ const projects = [
     description:
       'this application uses node.js and inquirer to capture responses in the terminal and then output them into a readme file with a traversable interface and organization. You can use this to generate a readme for any application using the markdown language.',
   },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'MongoDB Social Network API',
+    github: 'https://github.com/jgault87/mongolian-api',
+    demo: 'https://github.com/jgault87/mongolian-api',
+    description:
+      'Clean framework for MongoDB backend using Express, MongoDB and MongooseJS',
+  },
+
 ];
 
 const Portfolio = () => {
