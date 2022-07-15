@@ -3,7 +3,7 @@
 ## Description
 
  This is my personal portfolio site and first venture into using react. This react application showcases links to my resume, projects, skill-set and focus.
-  This website is built and will be maintained with responsive web design and mobile-first focus.
+  This website is built and will be maintained with responsive web design and mobile-first focus. This page uses React-spring for transition animations and emailJS for the contact form.
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
