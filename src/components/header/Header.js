@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/welcome.webp'
+import ME from '../../assets/welcome1.webp'
 import HeaderSocial from './HeaderSocials'
 import SpringAnimation from '../Springin'
 
@@ -22,6 +22,7 @@ const Header = ({handlePageChange}) => {
         <div className="me">
           <img src={ME} alt="me" />
           
+          
         </div>
 
         {/* <a href="#contact" className="scroll__down">  use the navbar</a> */}
@@ -30,9 +31,9 @@ const Header = ({handlePageChange}) => {
         
         </div>
 
-        <div className="container header__container-bottom">
+        {/* <div className="container header__container-bottom">
         <h4>Welcome to my landing page</h4> 
-        <h4>Use the navbar to take a look around</h4></div>
+        <h4>Use the navbar to take a look around</h4></div> */}
       </header>
       
       
