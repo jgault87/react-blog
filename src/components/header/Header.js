@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/welcome1.webp'
+import ME from '../../assets/welcome0.webp'
 import HeaderSocial from './HeaderSocials'
 import SpringAnimation from '../Springin'
 
