@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-go-to-it/static/css/main.a06a60cd.css",
+    "main.css": "/react-go-to-it/static/css/main.0014f213.css",
     "main.js": "/react-go-to-it/static/js/main.a72ed837.js",
     "static/media/resume_gault.pdf": "/react-go-to-it/static/media/resume_gault.5b3de57d87a2ba2a76c1.pdf",
     "static/media/me.webp": "/react-go-to-it/static/media/me.1b9c9bde61fd618997cb.webp",
@@ -12,11 +12,11 @@
     "static/media/generate.webp": "/react-go-to-it/static/media/generate.45458ca9a61cc9e25db5.webp",
     "static/media/welcome0.webp": "/react-go-to-it/static/media/welcome0.4582ceb837d6370c62a2.webp",
     "index.html": "/react-go-to-it/index.html",
-    "main.a06a60cd.css.map": "/react-go-to-it/static/css/main.a06a60cd.css.map",
+    "main.0014f213.css.map": "/react-go-to-it/static/css/main.0014f213.css.map",
     "main.a72ed837.js.map": "/react-go-to-it/static/js/main.a72ed837.js.map"
   },
   "entrypoints": [
-    "static/css/main.a06a60cd.css",
+    "static/css/main.0014f213.css",
     "static/js/main.a72ed837.js"
   ]
 }
