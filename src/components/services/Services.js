@@ -32,41 +32,45 @@ const Services = () => {
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Software Development</h3>
           </div>
           <ul className="service__list">
             
             <li>
             <BiCheck className='services__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>Pure Functions and modular code implementation</p>
             </li>
             <li>
             <BiCheck className='services__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>Solid Design Principles</p>
             </li>
             <li>
             <BiCheck className='services__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>Adaptable programming ideology</p>
+            </li>
+            <li>
+            <BiCheck className='services__list-icon'/>
+            <p>Follows Agile development workflows </p>
             </li>
           </ul>
           {/* {end of Web Development*/}
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>API deployment</h3>
           </div>
           <ul className="service__list">
             <li> 
             <BiCheck className='services__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>mySQL, noSQL (MongoDB) and GraphQL API implementation</p>
             </li>
             <li>
             <BiCheck className='services__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>Object Relational Mapping with REST APIs</p>
             </li>
             <li>
             <BiCheck className='services__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>Secure endpoints with encryption and JWST</p>
             </li>
           </ul>
         </article>
