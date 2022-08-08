@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/react-go-to-it/static/css/main.0014f213.css",
-    "main.js": "/react-go-to-it/static/js/main.dfbee754.js",
+    "main.css": "/react-go-to-it/static/css/main.6bd39623.css",
+    "main.js": "/react-go-to-it/static/js/main.02b6d1ae.js",
     "static/media/JJ-GAULT-resume.pdf": "/react-go-to-it/static/media/JJ-GAULT-resume.b6a36adf88695c35f540.pdf",
+    "static/media/moovyspace.png": "/react-go-to-it/static/media/moovyspace.5b8fd8d3ac073cd94c07.png",
     "static/media/me.webp": "/react-go-to-it/static/media/me.1b9c9bde61fd618997cb.webp",
     "static/media/mongobackend.webp": "/react-go-to-it/static/media/mongobackend.af31d710868524544852.webp",
     "static/media/blogger.webp": "/react-go-to-it/static/media/blogger.17d9a01918f30812ceda.webp",
@@ -12,11 +13,11 @@
     "static/media/generate.webp": "/react-go-to-it/static/media/generate.45458ca9a61cc9e25db5.webp",
     "static/media/welcome0.webp": "/react-go-to-it/static/media/welcome0.4582ceb837d6370c62a2.webp",
     "index.html": "/react-go-to-it/index.html",
-    "main.0014f213.css.map": "/react-go-to-it/static/css/main.0014f213.css.map",
-    "main.dfbee754.js.map": "/react-go-to-it/static/js/main.dfbee754.js.map"
+    "main.6bd39623.css.map": "/react-go-to-it/static/css/main.6bd39623.css.map",
+    "main.02b6d1ae.js.map": "/react-go-to-it/static/js/main.02b6d1ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.0014f213.css",
-    "static/js/main.dfbee754.js"
+    "static/css/main.6bd39623.css",
+    "static/js/main.02b6d1ae.js"
   ]
 }
