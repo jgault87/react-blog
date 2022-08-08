@@ -6,9 +6,19 @@ import IMG3 from '../../assets/weather.webp';
 import IMG4 from '../../assets/team.webp';
 import IMG5 from '../../assets/generate.webp';
 import IMG6 from '../../assets/mongobackend.webp';
+import IMG7 from '../../assets/moovyspace.png';
 import SpringAnimation from '../Springin';
 
 const projects = [
+  {
+    id: 7,
+    image: IMG7,
+    title: 'MoovySpace (MERN Stack Application)',
+    github: 'https://github.com/jgault87/MoovySpace',
+    demo: 'https://moovyspace.herokuapp.com/feed',
+    description:
+      "This application is a collaboratively developed social media application using the full-stack MVC paradigm. The concept is a social media website for pet-oriented content and showcasing a user's pet with pictures, traits and personality. It's also a place for interacting with other pet owners. We like to think of it as a twitter-like website for our furry friends. Read more about the technologies used on Github and try it out on Heroku!",
+  },
   {
     id: 1,
     image: IMG1,
