@@ -1,6 +1,6 @@
 import React from 'react';
 import './nav.css';
-import { AiOutlineHome } from 'react-icons/ai';
+
 import { FaUserAstronaut } from 'react-icons/fa';
 import { BiBook } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
@@ -14,9 +14,7 @@ const Nav = ({currentPage, handlePageChange}) => {
   
   return (
     <nav>
-      {/* <a href='#home' onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'active' : ''}>
-        <AiOutlineHome />
-      </a> */}
+      
       <a href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'active' : ''}>
         <FaUserAstronaut />
       </a>

@@ -7,14 +7,14 @@ const Experience = () => {
   return (
     <SpringAnimation>
       <section id='experience'>
-        <h2>Full Stack React and Node Developer</h2>
+        <h2>Full Stack React & Node Developer</h2>
 
         <div className='container experience__container'>
           
 
           {/* end of frontend */}
 
-          <div className='experience__backend'>
+          
             <div className='experience__content'>
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
@@ -57,7 +57,7 @@ const Experience = () => {
                 </div>
               </article>
             </div>
-          </div>
+          
         </div>
       </section>
     </SpringAnimation>

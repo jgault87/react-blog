@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
-    max-width: 50vw;
+    max-width: auto;
     
    
     
