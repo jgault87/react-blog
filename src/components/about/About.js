@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import ME from '../../assets/me.webp';
 import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
+import { FaReact } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import SpringAnimation from '../Springin';
 import CTA from '../../components/header/CTA'
@@ -12,6 +12,7 @@ const About = ({ handlePageChange }) => {
     <section id='about'>
       {/* <h5>Get To Know </h5> */}
       <h2>Hello, I'm JJ.</h2>
+      
 
       <div className='container about__container'>
         <div className='about__me'>
@@ -31,9 +32,9 @@ const About = ({ handlePageChange }) => {
               </article>
 
               <article className='about__card'>
-                <FiUsers className='about__icon' />
-                <h5>Clients</h5>
-                <small>Placeholder</small>
+                <FaReact className='about__icon' />
+                <h5>Full Stack </h5>
+                <small>React and Node Developer</small>
               </article>
 
               <article
