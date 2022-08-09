@@ -14,9 +14,9 @@ const Nav = ({currentPage, handlePageChange}) => {
   
   return (
     <nav>
-      <a href='#home' onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'active' : ''}>
+      {/* <a href='#home' onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'active' : ''}>
         <AiOutlineHome />
-      </a>
+      </a> */}
       <a href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'active' : ''}>
         <FaUserAstronaut />
       </a>

@@ -5,12 +5,13 @@ import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import SpringAnimation from '../Springin';
+import CTA from '../../components/header/CTA'
 
 const About = ({ handlePageChange }) => {
   return (
     <section id='about'>
-      <h5>Get To Know </h5>
-      <h2>About Me</h2>
+      {/* <h5>Get To Know </h5> */}
+      <h2>Hello, I'm JJ.</h2>
 
       <div className='container about__container'>
         <div className='about__me'>
@@ -56,13 +57,15 @@ const About = ({ handlePageChange }) => {
               <h4> Proactive: </h4> First in-line volunteer to face new challenges and step
               out of the comfort zone.
               </p>
-            <a
+              <CTA handlePageChange={handlePageChange} />
+            {/* <a
               href='#contact'
               onClick={() => handlePageChange('Contact')}
               className='btn btn-primary'
             >
               Let's Talk
-            </a>
+            </a> */}
+            
           </div>
 
         </SpringAnimation>
