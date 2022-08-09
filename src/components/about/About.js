@@ -26,7 +26,7 @@ const About = ({ handlePageChange }) => {
               <article className='about__card'>
                 <FaAward className='about__icon' />
                 <h5>University of Denver</h5>
-                <small>Current Full-Stack web development student</small>
+                <small>2022 Full Stack Bootcamp Alumni</small>
               </article>
 
               <article className='about__card'>
@@ -47,12 +47,10 @@ const About = ({ handlePageChange }) => {
             </div>
             <p>
               <h4>
-              Full-Stack software developer with big aspirations. 
+              Early-career developer with a passion for learning.
               </h4>
               I began my coding journey in February of 2022 and I have been obsessed ever since.
-              I'm eagerly
-              transitioning from a six-year successful insurance claim career into an
-              industry I am truly passionate about and am ecstatic about continuing to build my skill-set as a developer.
+              
               <h4> Objective-Driven: </h4>
               Consistent problem solver, present a problem and I will find a solution.
               <h4> Proactive: </h4> First in-line volunteer to face new challenges and step
