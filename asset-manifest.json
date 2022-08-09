@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-go-to-it/static/css/main.83fc80c0.css",
-    "main.js": "/react-go-to-it/static/js/main.a208f80d.js",
+    "main.css": "/react-go-to-it/static/css/main.54b51acd.css",
+    "main.js": "/react-go-to-it/static/js/main.79667d5d.js",
     "static/media/JJ-GAULT-resume.pdf": "/react-go-to-it/static/media/JJ-GAULT-resume.b6a36adf88695c35f540.pdf",
     "static/media/moovyspace.png": "/react-go-to-it/static/media/moovyspace.5b8fd8d3ac073cd94c07.png",
     "static/media/me.webp": "/react-go-to-it/static/media/me.1b9c9bde61fd618997cb.webp",
@@ -13,11 +13,11 @@
     "static/media/generate.webp": "/react-go-to-it/static/media/generate.45458ca9a61cc9e25db5.webp",
     "static/media/welcome0.webp": "/react-go-to-it/static/media/welcome0.4582ceb837d6370c62a2.webp",
     "index.html": "/react-go-to-it/index.html",
-    "main.83fc80c0.css.map": "/react-go-to-it/static/css/main.83fc80c0.css.map",
-    "main.a208f80d.js.map": "/react-go-to-it/static/js/main.a208f80d.js.map"
+    "main.54b51acd.css.map": "/react-go-to-it/static/css/main.54b51acd.css.map",
+    "main.79667d5d.js.map": "/react-go-to-it/static/js/main.79667d5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.83fc80c0.css",
-    "static/js/main.a208f80d.js"
+    "static/css/main.54b51acd.css",
+    "static/js/main.79667d5d.js"
   ]
 }
