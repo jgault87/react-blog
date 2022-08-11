@@ -52,7 +52,7 @@ const projects = [
     title: 'Team Visualizer',
     github: 'https://github.com/jgault87/team_visualizer',
     description:
-      'Node application for generating a static HTML file based on user input',
+      'Node application for generating a static HTML file based on user input.',
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ const projects = [
     title: 'Generate readYou',
     github: 'https://github.com/jgault87/generateReadYou',
     description:
-      'Node application for generating a readMe in Markdown language based on user input',
+      'Node application for generating a readMe in Markdown language based on user input.',
   },
   {
     id: 6,
@@ -68,7 +68,7 @@ const projects = [
     title: 'MongoDB Social Network API',
     github: 'https://github.com/jgault87/mongolian-api',
     description:
-      'REST API server using MongoDB (noSQL), Express and MongooseJS',
+      'REST API server using MongoDB (noSQL), Express and MongooseJS.',
   },
 ];
 
