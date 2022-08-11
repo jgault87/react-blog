@@ -5,14 +5,13 @@ import { FaAward } from 'react-icons/fa';
 import { FaReact } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import SpringAnimation from '../Springin';
-import CTA from '../../components/header/CTA'
+import CTA from '../../components/header/CTA';
 
 const About = ({ handlePageChange }) => {
   return (
     <section id='about'>
       {/* <h5>Get To Know </h5> */}
       <h2>Hello, I'm JJ.</h2>
-      
 
       <div className='container about__container'>
         <div className='about__me'>
@@ -22,7 +21,6 @@ const About = ({ handlePageChange }) => {
         </div>
 
         <SpringAnimation>
-
           <div className='about__content'>
             <div className='about__cards'>
               <article className='about__card'>
@@ -48,17 +46,16 @@ const About = ({ handlePageChange }) => {
               </article>
             </div>
             <p>
-              <h4>
-              Early-career developer with a passion for learning.
-              </h4>
-              I began my coding journey in February of 2022 and I have been obsessed ever since.
-              
+              <h4>Early-career developer with a passion for learning.</h4>I
+              began my coding journey in February of 2022 and I have been
+              obsessed ever since.
               <h4> Objective-Driven: </h4>
-              Consistent problem solver, present a problem and I will find a solution.
-              <h4> Proactive: </h4> First in-line volunteer to face new challenges and step
-              out of the comfort zone.
-              </p>
-              <CTA handlePageChange={handlePageChange} />
+              Consistent problem solver, present a problem and I will find a
+              solution.
+              <h4> Proactive: </h4> First in-line volunteer to face new
+              challenges and step out of the comfort zone.
+            </p>
+            <CTA handlePageChange={handlePageChange} />
             {/* <a
               href='#contact'
               onClick={() => handlePageChange('Contact')}
@@ -66,11 +63,8 @@ const About = ({ handlePageChange }) => {
             >
               Let's Talk
             </a> */}
-            
           </div>
-
         </SpringAnimation>
-
       </div>
     </section>
   );
