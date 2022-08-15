@@ -1,15 +1,12 @@
 import React from 'react';
 import './services.css';
 import { BiCheck } from 'react-icons/bi';
-import SpringAnimation from '../Springin';
 
 const Services = () => {
   return (
-    <SpringAnimation>
     <section id='services'>
       <h2>Services</h2>
       <div className='container services__container'>
-      
         <article className='service'>
           <div className='service__head'>
             <h3>UI/UX Design</h3>
@@ -29,9 +26,8 @@ const Services = () => {
             </li>
           </ul>
           {/* {end of UI/UX} */}
-          
         </article>
-       
+
         <article className='service'>
           <div className='service__head'>
             <h3>Software Development</h3>
@@ -76,10 +72,8 @@ const Services = () => {
           </ul>
         </article>
         {/* {end of content creation} */}
-        
       </div>
     </section>
-    </SpringAnimation>
   );
 };
 
